@@ -1,17 +1,17 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <h1>Pokemon Index for Different Version</h1>
+  <Chart />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Chart from "./components/Chart.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    Chart,
+  },
+};
 </script>
 
 <style>
